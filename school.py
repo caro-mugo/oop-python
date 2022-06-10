@@ -20,4 +20,7 @@ class Student:
         for name in full_name:
             initials+=name[0].upper()
             return
+    def initials2(self):
+        return f"Hello{self.firs_name} {self.last_name} how is {self.country} your initials are {self.first_name[0]} {self.last_name[0]}"    
+    
     
